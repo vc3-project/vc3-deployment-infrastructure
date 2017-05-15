@@ -19,6 +19,7 @@ git clone https://github.com/vc3-project/vc3-flatpages.git .
 echo
 echo "Latest VC3-Flatpages Repo temporarily cloned into: ${PWD}"
 echo
+rm -rf README.md
 
 # Copy files recursively into destination
 mkdir -p ${PAGES_DIR}
