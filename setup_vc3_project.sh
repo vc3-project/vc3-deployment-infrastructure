@@ -17,6 +17,6 @@ echo "Successfully installed requirements"
 
 # Copy the portal.config in the root directory into the portal project
 cd
-cp ~/portal.config /srv/www/vc3-website-python/portal/
+cp ~/portal.conf /srv/www/vc3-website-python/portal/
 echo "Successfully copied portal.config into project"
 exit
