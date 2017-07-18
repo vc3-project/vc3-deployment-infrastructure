@@ -1,7 +1,7 @@
 #!/bin/bash
 # Update the Pages directory with latest vc3-flatpages repo
 
-PAGES_DIR="/srv/www/vc3-website-python/portal/pages"
+PAGES_DIR="/srv/www/vc3-web-env/portal/pages"
 
 # Start at home directory
 cd
@@ -25,7 +25,7 @@ rm -rf README.md
 mkdir -p ${PAGES_DIR}
 # rm * ${PAGES_DIR}
 
-# Copy files from temporary pages directory into vc3-website-python project
+# Copy files from temporary pages directory into vc3-web-env project
 cp -r ${DIR}/*\.md ${PAGES_DIR}
 echo "Successfully copied files into ${PAGES_DIR}"
 
